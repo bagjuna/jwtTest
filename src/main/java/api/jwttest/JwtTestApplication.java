@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JwtTestApplication {
 
     public static void main(String[] args) {
+        System.out.println("안녕");
         SpringApplication.run(JwtTestApplication.class, args);
     }
 
